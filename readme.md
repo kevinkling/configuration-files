@@ -8,11 +8,10 @@
 - Hyper: ~/.hyper.js
 - Bash: ~/.basrc
 - Zsh: ~/.zshrc
-- OHMYZSH: ~/.ohmyzsh/oh-my=zsh.sh  ---  P10K: .p10k.zsh
+- OHMYZSH: ~/.ohmyzsh/oh-my=zsh.sh  ---  PowerLevel10K: .p10k.zsh
 - NeoVim: ~/.config/nvim/init.vim
-
+- Vim: ~/.vimrc
 - Rofi: ~/.config/rofi/config.rasi
-
 - SSH: ~/.ssh/config
 
 ### Archivo de configuracion de ROOT:
