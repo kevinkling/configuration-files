@@ -24,6 +24,7 @@ source $ZSH/oh-my-zsh.sh
 alias cfgp10k="p10k configure"
 alias cfgnvim="nvim ~/.config/nvim/init.vim"
 alias cfgzsh="nvim ~/.zshrc"
+alias cfgalacritty="nvim .config/alacritty/alacritty.yml"
 alias tempssd="sudo hddtemp /dev/sda"
 alias tempcpu="sensors | grep Core"
 alias gst="git status"
@@ -31,5 +32,7 @@ alias gaa="git add ."
 alias gc="git commit -m"
 alias gp="git push"
 alias gl="git pull"
+alias nv="nvim"
+alias apagarserver="net RPC SHUTDOWN -I 192.168.0.200 -U mypc%qwer"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

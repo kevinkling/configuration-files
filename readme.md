@@ -13,6 +13,7 @@
 - Vim: ~/.vimrc
 - Rofi: ~/.config/rofi/config.rasi
 - SSH: ~/.ssh/config
+- TMUX: ~/.tmux.conf
 
 ### Archivo de configuracion de ROOT:
 ...

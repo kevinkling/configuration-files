@@ -1,0 +1,82 @@
+dynamic_title: true
+
+cursor:
+    style: Underline
+
+live_config_reload: true
+
+#FUENTE
+font:
+  normal:
+    family: "Hack Nerd Font"
+    style: Regular
+  bold:
+    family: "Hack Nerd Font"
+    style: Bold
+  italic:
+    family: "Hack Nerd Font"
+    style: Italic
+  bold_italic:
+    family: "Hack Nerd Font"
+    style: Bold Italic
+
+  size: 13.0
+
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+
+#SHELL POR DEFECTO
+shell:
+  program: /bin/zsh
+
+#CONFIGURACION DE VENTANA
+window:
+  decorations: full
+
+  padding:
+    x: 6
+    y: 6
+
+  opacity: 0.8
+
+    #font:
+    #offset:
+    #y: 10
+
+    #  glyph_offset:
+    #    y: 5
+
+colors:
+  primary:
+    background: '0x282828'
+    foreground: '0xdfbf8e'
+
+  normal:
+    black:   '0x665c54'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe78a4e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
+
+  bright:
+    black:   '0x928374'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe3a84e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
+
+
+#KEYBINDS
+key_bindings:
+  - { key: F11,    mods: Control|Shift,   action: ToggleFullscreen   }
+
