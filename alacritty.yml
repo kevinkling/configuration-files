@@ -41,7 +41,7 @@ window:
     x: 6
     y: 6
 
-  opacity: 0.8
+  opacity: 0.4
 
     #font:
     #offset:

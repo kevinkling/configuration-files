@@ -1,0 +1,61 @@
+background no
+font Snap.se:size=8
+xftfont Snap.se:size=8
+use_xft yes
+xftalpha 0.1
+update_interval 3.0
+total_run_times 0
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+minimum_size 200 6
+maximum_width 300
+default_color ffffff
+default_shade_color 000000
+default_outline_color 000000
+alignment top_right
+gap_x 10
+gap_y 10
+no_buffers yes
+cpu_avg_samples 2
+override_utf8_locale no
+uppercase no # set to yes if you want all text to be in uppercase
+use_spacer no
+own_window_argb_visual yes 
+ 
+TEXT
+#Aqui empieza la configuracion de los datos que se muestran
+#El primero es el nombre del sistema operativo y la version del kernel
+${font Ubuntu:style=bold:size=12}$sysname $alignr $kernel
+ 
+#Esto nos muestra los dos procesadores y una barra de cada uno de ellos con su uso
+${font Ubuntu:style=bold:size=14}Procesadores $hr
+${font Ubuntu:style=bold:size=10}CPU1: ${cpu cpu1}% ${cpubar cpu1}
+CPU2: ${cpu cpu2}% ${cpubar cpu2}
+#Esto nos muestra la temperatura de los procesadores
+Temperatura: $alignr ${hwmon 0 temp 1}c
+ 
+#Esto nos muestra la particion Home, la RAM y la sawp con una barra cada una y sus datos
+${font Ubuntu:style=bold:size=14}Memoria y discos $hr
+${font Ubuntu:style=bold:size=10}HOME $alignr ${fs_used /home} / ${fs_size /home}
+${fs_bar /home}
+${font Ubuntu:style=bold:size=10}RAM $alignr $mem / $memmax  
+${membar} 
+
+#Esto muestra el uso de la CPU de las aplicaciones que mas hacen uso de ella
+${font Ubuntu:style=bold:size=14}Uso CPU aplicaciones $hr
+${font Ubuntu:style=bold:size=10}${top name 1}$alignr${top cpu 1}%
+${top name 2}$alignr${top cpu 2}%
+${top name 3}$alignr${top cpu 3}%
+ 
+#Esto nos muestra el procentaje de RAM que usan las aplicaciones de ella
+${font Ubuntu:style=bold:size=14}Uso RAM aplicaciones $hr
+${font Ubuntu:style=bold:size=10}${top_mem name 1}$alignr${top_mem mem 1}%
+${top_mem name 2}$alignr${top_mem mem 2}%
+${top_mem name 3}$alignr${top_mem mem 3}%

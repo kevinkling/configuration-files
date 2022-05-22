@@ -14,9 +14,10 @@ export ZSH="/home/kevin/.oh-my-zsh"
 # disable auto-setting terminal title.
   DISABLE_AUTO_TITLE="true"
 # enable command auto-correction.
-  ENABLE_CORRECTION="true"
+  ENABLE_CORRECTION="flase"
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-completions)
+plugins=(git zsh-syntax-highlighting zsh-completions zsh-autosuggestions)
+#zsh-autosuggestions zsh-completions
 
 autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
