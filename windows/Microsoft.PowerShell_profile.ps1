@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config 'C:\Users\PC\AppData\Local\Programs\oh-my-posh\themes\rudolfs-light.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\PC\AppData\Local\Programs\oh-my-posh\themes\bubblesline.omp.json' | Invoke-Expression
 
 Import-Module Terminal-Icons
 
