@@ -1,0 +1,165 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Arthur",
+            "font": 
+            {
+                "face": "JetBrainsMonoNL Nerd Font Mono",
+                "size": 10,
+                "weight": "medium"
+            },
+            "opacity": 88
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "S\u00edmbolo del sistema"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{bb24ac8c-96db-5fc2-93cb-418a3e1cde6f}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{89355391-237c-5314-857a-08744eab9caa}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#1C1C1C",
+            "black": "#3D352A",
+            "blue": "#6495ED",
+            "brightBlack": "#554444",
+            "brightBlue": "#87CEEB",
+            "brightCyan": "#B0C4DE",
+            "brightGreen": "#88AA22",
+            "brightPurple": "#996600",
+            "brightRed": "#CC5533",
+            "brightWhite": "#DDCCBB",
+            "brightYellow": "#FFA75D",
+            "cursorColor": "#E2BBEF",
+            "cyan": "#B0C4DE",
+            "foreground": "#DDEEDD",
+            "green": "#86AF80",
+            "name": "Arthur",
+            "purple": "#DEB887",
+            "red": "#CD5C5C",
+            "selectionBackground": "#4D4D4D",
+            "white": "#BBAA99",
+            "yellow": "#E8AE5B"
+        },
+        {
+            "background": "#282A36",
+            "black": "#282A36",
+            "blue": "#57C7FF",
+            "brightBlack": "#686868",
+            "brightBlue": "#57C7FF",
+            "brightCyan": "#9AEDFE",
+            "brightGreen": "#5AF78E",
+            "brightPurple": "#FF6AC1",
+            "brightRed": "#FF5C57",
+            "brightWhite": "#EFF0EB",
+            "brightYellow": "#F3F99D",
+            "cursorColor": "#97979B",
+            "cyan": "#9AEDFE",
+            "foreground": "#EFF0EB",
+            "green": "#5AF78E",
+            "name": "Snazzy",
+            "purple": "#FF6AC1",
+            "red": "#FF5C57",
+            "selectionBackground": "#3E404A",
+            "white": "#F1F1F0",
+            "yellow": "#F3F99D"
+        }
+    ],
+    "showTerminalTitleInTitlebar": true,
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
