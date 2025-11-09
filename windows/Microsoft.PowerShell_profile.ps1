@@ -2,6 +2,10 @@ oh-my-posh init pwsh --config 'C:\Users\PC\AppData\Local\Programs\oh-my-posh\the
 
 Import-Module Terminal-Icons
 
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
 
 function Get-GitStatus { & git status $args }
 New-Alias -Name gss -Value Get-GitStatus

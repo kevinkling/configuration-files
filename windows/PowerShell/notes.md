@@ -1,11 +1,18 @@
 Windows Terminal Themes: https://windowsterminalthemes.dev/
 
-Oh My Posh: https://ohmyposh.dev/  (requiere winget)
+Herramientas o plugins que uso:
 
-Comandos mínimos:
+[Oh My Posh](https://ohmyposh.dev/)
+[z (zoxide) → moverte rápido entre carpetas](https://github.com/ajeetdsouza/zoxide)
+[Terminal-Icons](https://github.com/devblackops/Terminal-Icons)
+[PSReadLine → autosugerencias](https://github.com/PowerShell/PSReadLine)
+
+Comandos útiles:
 
 ```powershell
-winget install JanDeDobbeleer.OhMyPosh -s winget
-# Usar PowerShell moderno (pwsh), no "Windows PowerShell"
+# Instalar fuentes (menú interactivo)
 oh-my-posh font install
+
+# Ver todos los temas disponibles
+Get-PoshThemes
 ```
